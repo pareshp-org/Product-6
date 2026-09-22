@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "name": "Audit Gate 2 Sign-off",
+      "category": "approval",
+      "status": "verified",
+      "action": "gate2_signoff",
+      "actor": "bendrohit-eng"
+    },
+    {
+      "name": "Audit Schema Migration Run",
+      "category": "migration",
+      "status": "verified",
+      "action": "schema_migrate",
+      "actor": "system-runner"
+    },
+    {
+      "name": "Audit Branch Protection Verify",
+      "category": "policy",
+      "status": "verified",
+      "action": "protection_check",
+      "actor": "reconciler"
+    }
+  ]
+}
